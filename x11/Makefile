@@ -281,6 +281,8 @@
     SUBDIR += plasma5-plasma-workspace
     SUBDIR += pmenu
     SUBDIR += polybar
+    SUBDIR += potabi-mate
+    SUBDIR += potabi-mate-settings
     SUBDIR += printscreen
     SUBDIR += py-caffeine-ng
     SUBDIR += py-i3-quickterm
