@@ -25,4 +25,5 @@ do-install:
 	${CP} -R   ${WRKSRC}/etc/* ${STAGEDIR}/${PREFIX}/etc
 	${MKDIR} ${STAGEDIR}/${PREFIX}/share/glib-2.0/schemas
 	${CP} -R   ${WRKSRC}/schemas/* ${STAGEDIR}/${PREFIX}/share/glib-2.0/schemas
+
 .include <bsd.port.mk>
